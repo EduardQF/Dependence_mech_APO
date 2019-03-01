@@ -32,11 +32,11 @@ The buttons:
 imprtance level : change the colors of nodes and show the nodes with the color of his importance level.
 PipLine/Archive : change the colors of nodes and show the nodes with the color of his flow data.
 
--Critic: show the nodes with Critic services.
--Important: show the nodes with Important services.
--Sencitive: show the nodes with Sencitive services.
--Less sensitive: show the nodes what services is less sensitive.
--Not affect: show the nodes what not affect other services.
+- Critic: show the nodes with Critic services.
+- Important: show the nodes with Important services.
+- Sencitive: show the nodes with Sencitive services.
+- Less sensitive: show the nodes what services is less sensitive.
+- Not affect: show the nodes what not affect other services.
 
 For show the services affected if a service is stopped, only press the node with the stopped service and in down of model will present the services affected.
 
