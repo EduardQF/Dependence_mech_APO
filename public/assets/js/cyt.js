@@ -173,13 +173,13 @@ function showOneLevel(level) {
 function recharge() {
   network = new vis.Network(container, { nodes, edges }, options);
   network.on('select', function (params) {
-    document.getElementById("badFunction").innerHTML = 'Services Affeced';
+    document.getElementById("affected").innerHTML = 'Services Affeced';
     var nodesConnect = network.getConnectedNodes(params.nodes[0], 'to');
     nodesConnect.forEach(node => {
       var nod = document.createElement("LI");
       var textnod = document.createTextNode(nodes[node - 1].label);
       nod.append(textnod);
-      document.getElementById("badFunction").appendChild(nod);
+      document.getElementById("affected").appendChild(nod);
     });
   });
 }
@@ -188,12 +188,12 @@ function recharge() {
  * function how present the services affected if the node have a problem.
  */
 network.on('select', function (params) {
-  document.getElementById("badFunction").innerHTML = 'Services Affeced';
+  document.getElementById("affected").innerHTML = 'Services Affeced';
   var nodesConnect = network.getConnectedNodes(params.nodes[0], 'to');
   nodesConnect.forEach(node => {
     var nod = document.createElement("LI");
     var textnod = document.createTextNode(nodes[node - 1].label);
     nod.append(textnod);
-    document.getElementById("badFunction").appendChild(nod);
+    document.getElementById("affected").appendChild(nod);
   });
 });
