@@ -29,7 +29,7 @@ The nodes is charged of json with the values:
 In the web page application:
 
 The buttons:
-- imprtance level : change the colors of nodes and show the nodes with the color of his importance level.
+- Imprtance level : change the colors of nodes and show the nodes with the color of his importance level.
 - PipLine/Archive : change the colors of nodes and show the nodes with the color of his flow data.
 - Critic: show the nodes with Critic services.
 - Important: show the nodes with Important services.
